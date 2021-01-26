@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>liquad.q.li@pwc.com</contactEmail>
+    <label>Copado DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC8TCCAdkCFFxVrfBeW3CFfLsAxLuAtuMSe40SMA0GCSqGSIb3DQEBCwUAMDQxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKDAZDb3BhZG8xFDASBgNVBAMMC3d3dy5jb3BhLmRvMCAXDTIxMDEyNTAzNDkzM1oYDzIxMzAwODAyMDM0OTMzWjA0MQswCQYDVQQGEwJVUzEPMA0GA1UECgwGQ29wYWRvMRQwEgYDVQQDDAt3d3cuY29wYS5kbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALmvuR+twjp3zWP33hhFk0AoegoyeMLboAMTxrl7IC9OYdobiCXZwMY6GxvY5t+exMNkeiPig6w9R5ML6snBGXFwjnSMyhIOQC4k9111UIc79tmF0/0e1rgVCjuZi+eC+q9JhgvUql1GfeZJs8UsBmliHIDP72OhynVV/UPQAuVhHN8eIpzy5IERVv8Ia9sMiBB3MpJQ6sYUAsujNO/SRYKsZUGI0d2oyHK2GLZy1ZWA8B+MKiF6peseOrplszECu3UewATheSNc8QhJxLKjzyWVaErYu9GdXDkMXdSx4nv12I3aaa086HkI4bIbqVC3mndjpvbd31nq+gpNgIKeErsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAhZ+wcV3GjU57shI0ZvzbcnMJ4A3dhVWKj9t0sy1QmCzGn0XpM6ECRP98MDYXF1S4mFAffMrKKRYVGMXIEKHF7oGls1BUD6SirgK6GCD+e5yaJUcklVU89hWps9mka3vCRPZBC808KowKODxFPU/wdNtl4XOoYMQoaIdTBLsbZHbLb8vBpYvyX6oNk0zBwgLjs1Z4vgGJN+yyHuevGjKBYShCRVUu7zr4gZdGuZFaVvrZY0SZTtRMEAnjE/0ZStcush0XVjr0HBlcvHGJSDvUCyE9qlYPuwqvA1Us4Max2zMYKKh8RwfzMgBi2Wtfms826gwxD33IME/hNW2+sHIMiA==</certificate>
+        <consumerKey>913539db854a462aaa6151b59060db9addffc5e3a463484eb285d437c800da07</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
