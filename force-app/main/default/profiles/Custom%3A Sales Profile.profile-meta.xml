@@ -4,6 +4,9 @@
     <layoutAssignments>
         <layout>testObject2__c-testObject2 Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>testObject3__c-testObject3 Layout</layout>
+    </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
