@@ -2,18 +2,13 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Problem</fullName>
+        <fullName>Sample Cases</fullName>
         <default>false</default>
-        <label>Problema</label>
+        <label>Sample Cases</label>
     </standardValue>
     <standardValue>
-        <fullName>Feature Request</fullName>
+        <fullName>Trial</fullName>
         <default>false</default>
-        <label>Solicitud de función</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Question</fullName>
-        <default>false</default>
-        <label>Pregunta</label>
+        <label>Trial</label>
     </standardValue>
 </StandardValueSet>
