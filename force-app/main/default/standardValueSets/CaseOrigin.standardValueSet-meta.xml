@@ -4,16 +4,21 @@
     <standardValue>
         <fullName>Email</fullName>
         <default>false</default>
-        <label>Correo electrónico</label>
+        <label>Email</label>
     </standardValue>
     <standardValue>
         <fullName>Phone</fullName>
         <default>false</default>
-        <label>Teléfono</label>
+        <label>Phone</label>
     </standardValue>
     <standardValue>
         <fullName>Web</fullName>
         <default>false</default>
         <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chatter Answers</fullName>
+        <default>false</default>
+        <label>Chatter Answers</label>
     </standardValue>
 </StandardValueSet>

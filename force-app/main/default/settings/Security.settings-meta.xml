@@ -7,12 +7,7 @@
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <isTLSv12Required xsi:nil="true"/>
     <isTLSv12RequiredCommunities xsi:nil="true"/>
-    <networkAccess>
-        <ipRanges>
-            <end>210.13.112.211</end>
-            <start>210.13.112.211</start>
-        </ipRanges>
-    </networkAccess>
+    <networkAccess/>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <enableSetPasswordInApi>true</enableSetPasswordInApi>
@@ -27,7 +22,7 @@
     </passwordPolicies>
     <sessionSettings>
         <allowUserAuthenticationByCertificate>false</allowUserAuthenticationByCertificate>
-        <canConfirmEmailChangeInLightningCommunities>false</canConfirmEmailChangeInLightningCommunities>
+        <canConfirmEmailChangeInLightningCommunities>true</canConfirmEmailChangeInLightningCommunities>
         <canConfirmIdentityBySmsOnly>true</canConfirmIdentityBySmsOnly>
         <disableTimeoutWarning>false</disableTimeoutWarning>
         <enableCSPOnEmail>true</enableCSPOnEmail>
@@ -63,14 +58,15 @@
         <referrerPolicy>true</referrerPolicy>
         <requireHttpOnly>false</requireHttpOnly>
         <requireHttps>true</requireHttps>
-        <sessionTimeout>TwoHours</sessionTimeout>
+        <sessionTimeout>TwelveHours</sessionTimeout>
     </sessionSettings>
     <singleSignOnSettings>
         <enableCaseInsensitiveFederationID>false</enableCaseInsensitiveFederationID>
+        <enableForceDelegatedCallout>false</enableForceDelegatedCallout>
         <enableMultipleSamlConfigs>true</enableMultipleSamlConfigs>
         <enableSamlJitProvisioning>false</enableSamlJitProvisioning>
         <enableSamlLogin>false</enableSamlLogin>
-        <isLoginWithSalesforceCredentialsDisabled>false</isLoginWithSalesforceCredentialsDisabled>
+        <isLoginWithSalesforceCredentialsDisabled>true</isLoginWithSalesforceCredentialsDisabled>
     </singleSignOnSettings>
     <turnTLSv11Off xsi:nil="true"/>
     <turnTLSv11OffSites xsi:nil="true"/>

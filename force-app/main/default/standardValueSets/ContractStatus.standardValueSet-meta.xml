@@ -4,16 +4,16 @@
     <standardValue>
         <fullName>In Approval Process</fullName>
         <default>false</default>
-        <label>En proceso de aprobación</label>
+        <label>In Approval Process</label>
     </standardValue>
     <standardValue>
         <fullName>Activated</fullName>
         <default>false</default>
-        <label>Activado</label>
+        <label>Activated</label>
     </standardValue>
     <standardValue>
         <fullName>Draft</fullName>
         <default>false</default>
-        <label>Borrador</label>
+        <label>Draft</label>
     </standardValue>
 </StandardValueSet>

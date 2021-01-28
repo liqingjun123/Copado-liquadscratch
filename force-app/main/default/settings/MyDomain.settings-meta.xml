@@ -5,5 +5,5 @@
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
     <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>
-    <useStabilizedSandboxMyDomainHostnames>true</useStabilizedSandboxMyDomainHostnames>
+    <useStabilizedSandboxMyDomainHostnames>false</useStabilizedSandboxMyDomainHostnames>
 </MyDomainSettings>
